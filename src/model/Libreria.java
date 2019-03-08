@@ -80,7 +80,7 @@ public class Libreria {
 		
 		for(int i=0; i<CANTIDAD_MAXIMA_LIBROS; ++i){
 			
-			if(libros[i]!= null && libros[i].esNacional()){
+			if(libros[i]!= null && libros[i].darEsNacional()){
 				total++;
 			}
 		}
